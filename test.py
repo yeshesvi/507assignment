@@ -19,7 +19,7 @@ def test(pos_dict):
 		list_length = len(sorted_list_of_words)
 		for i in range(0 ,list_length-1):
 			if sorted_list_of_words[i][1] < sorted_list_of_words[i+1][1]:
-				passed = Frue
+				passed = True
 	if passed:	
 		print("Test passed!!")
 	else:
